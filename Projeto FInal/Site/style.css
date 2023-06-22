@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    transition: margin-left 0.3s ease; 
+    flex-grow: 1;
+}
+
+.profile {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.main {
+    color: rgb(108, 108, 108);
+    text-align: left;
+}
+
+button {
+    background-color: #a1a1a1;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    #lerSobre {
+    display: none;
+}
+
+}
+
+
+button:hover {
+    background-color: #5e5e5e; 
+}
+
+.contact-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: auto; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
